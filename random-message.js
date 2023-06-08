@@ -10,6 +10,6 @@ const randomPlayer = players[randomNumberGenerator(players)]
 const randomStyle = styles[randomNumberGenerator(styles)];
 const randomBoots = boots[randomNumberGenerator(boots)];
 
-const message = `The player is ${randomPlayer}, their style is ${randomStyle} and their boots are ${randomBoots} ha`
+const message = `The player is ${randomPlayer}, their style is ${randomStyle} and their boots are ${randomBoots} happy`
 
 console.log(message)
